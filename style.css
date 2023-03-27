@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    padding: 20px;
+
+}
+
+.header__div{
+    width: 20%;
+    padding: 10px 30px;
+    background-color: rgb(201, 198, 198);
+    margin-left: 600px;
+    
+}
+
+.header__div__form h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.header__div__form__one{
+    display: flex;
+    flex-direction: row;
+}
+.header__div__form__one__h4 {
+    width: 25px;
+height: 25px;
+background-color: green;
+color: white;
+border-radius: 9999px;
+font-size: 20px;
+text-align: center;
+
+}
+.header__div__form__one__p{
+    margin: 4px;
+}
+#name{
+    width: 90%;
+    padding: 10px 0;
+    background-color: rgb(163, 161, 161);
+    border: 1px solid rgb(163, 161, 161);
+    margin-bottom: 15px;
+}
+#mail{
+    width: 90%;
+    padding: 10px 0;
+    background-color: rgb(163, 161, 161);
+    border: 1px solid rgb(163, 161, 161);
+    margin-bottom: 15px;
+}
+#password{
+    width: 90%;
+    padding: 10px 0;
+    background-color: rgb(163, 161, 161);
+    border: 1px solid rgb(163, 161, 161);
+    margin-bottom: 15px;
+}
+#age1{
+    margin-bottom: 30px;
+}
+.header__div__form__two{
+    display: flex;
+    flex-direction: row;
+}
+.header__div__form__two__h4 {
+    width: 25px;
+height: 25px;
+background-color: green;
+color: white;
+border-radius: 9999px;
+font-size: 20px;
+text-align: center;
+
+}
+.header__div__form__two__p{
+    margin: 4px;
+}
+#bio{
+    width: 90%;
+    background-color: rgb(163, 161, 161);
+    border: 1px solid rgb(163, 161, 161);
+    margin-bottom: 15px;
+    height: 45px;
+}
+.header__div__form__select{
+    width: 90%;
+    padding: 5px 0;
+    background-color: rgb(163, 161, 161);
+    border: 1px solid rgb(163, 161, 161);
+    margin-bottom: 20px;
+
+}
+.header__div__form__button{
+    width: 90%;
+    padding: 7px 0;
+    margin-top: 15px;
+    background-color: green;
+    border: 1px solid green;
+}

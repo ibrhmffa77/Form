@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header class="header">
+    <div class="header__div">
+        <form  class="header__div__form">
+            <h2  >SIGN UP</h2>
+            <div class="header__div__form__one">
+                <h4 class="header__div__form__one__h4">1</h4>
+              <p class="header__div__form__one__p">Your Basic Info</p>
+               </div>
+           <label for="name">Name:</label>
+           <input type="text" id="name">
+           <label for="mail">Email:</label>
+           <input type="email" id="mail">
+           <label for="password">Password:</label>
+           <input type="password" id="password">
+           <label for="">Age:</label>
+           <br>
+           <input type="radio" id="age" name="age" >
+           <label for="age">Under 13</label>
+           <br>
+           <input type="radio" id="age1" name="age">
+           <label for="age1">Over 13</label>
+         <div class="header__div__form__two">
+          <h4 class="header__div__form__two__h4">  2</h4>
+        <p class="header__div__form__two__p">Your Profile</p>
+         </div>
+           <label for="bio"><p> Bio:</p>
+            <textarea name="form_bio" id="bio" cols="30" rows="10"></textarea>
+        </label>
+           
+           <label for="job">JobRole:</label>
+            <select class="header__div__form__select" required>
+            <option value="">Front-End Developer</option>
+            <option value="">Back-End Developer</option>
+            <option value="">Cyber Security</option>
+            <option value="">Game Developer</option></select>
+            <label for="">Interests:</label>
+            <br>
+            <input type="checkbox"  id="dev" >
+            <label for="dev">Development</label>
+            <br>
+            <input type="checkbox" id="design" >
+            <label for="design">Design</label>
+            <br>
+            <input type="checkbox" id="business" >
+            <label for="business">Business</label>
+            <button class="header__div__form__button">Sign Up</button>
+        </form>
+    </div>
+</header>
+
+
+</body>
+</html>
